@@ -7,6 +7,10 @@ For the original software please see the links below
 This version does not include `Qjets` plugin that has been offered in original `HTTv2`. If you use this repository 
 please cite the following papers:
 
+**MadAnalysis 5 integration:**
+* TBA
+
+**Original papers of the tool:**
 * [JHEP 1506 (2015) 203 [arXiv:1503.05921 [hep-ph]]](https://arxiv.org/abs/1503.05921)
 * [JHEP 1010 (2010) 078 [arXiv:1006.2833 [hep-ph]]](https://arxiv.org/abs/1006.2833)
 
