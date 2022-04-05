@@ -23,6 +23,7 @@ install HEPTopTagger
 Once installed `SampleAnalyzer` backend will automatically add `HTT` libraries to the analysis workspace. 
 HTT can be initialized and executed via following commands;
 
+**Initialization:**
 ```c++
 Substructure::HTT::InputParameters parameters;
 parameters.mode = Substructure::HTT::EARLY_MASSRATIO_SORT_MASS; // execution mode
@@ -73,11 +74,13 @@ parameters.prun_rcut = .5; // set_prun_rcut
 // Initialize HTT during initialization of the analysis.
 Substructure::HTT tagger;
 tagger.Initialize(parameters);
+```
 
+**Execution:**
+```c++
 // Execute HTT
 RecJets Jets = filter(event.rec()->jets(), 200., 2.5);
 tagger.Execute(Jets[0]);
 
-const RecJet Top;
-if (tagger.is_tagged()) Top = tagger.top();
+const RecJet Top = tagger.is_tagged() ? tagger.top() : new RecJetFormat();
 ```
