@@ -8,7 +8,7 @@ This version does not include `Qjets` plugin that has been offered in original `
 please cite the following papers:
 
 **MadAnalysis 5 integration:**
-* TBA
+* [arXiv:2303.03427 [hep-ph]](https://arxiv.org/abs/2303.03427)
 
 **Original papers of the tool:**
 * [JHEP 1506 (2015) 203 [arXiv:1503.05921 [hep-ph]]](https://arxiv.org/abs/1503.05921)
