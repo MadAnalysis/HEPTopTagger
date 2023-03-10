@@ -20,6 +20,9 @@ namespace HEPTopTagger{
         std::cout << "# Please cite JHEP 1506 (2015) 203 [arXiv:1503.05921 [hep-ph]]             \n";
         std::cout << "# and JHEP 1010 (2010) 078 [arXiv:1006.2833 [hep-ph]].                     \n";
         std::cout << "# This code is provided without warranty.                                  \n";
+	std::cout << "# \n";
+	std::cout << "# For MadAnalysis 5 implementation please cite arXiv:2303.03427 [hep-ph]\n";
+	std::cout << "# \n";
         std::cout << "#--------------------------------------------------------------------------\n";
     }
 
